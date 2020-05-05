@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Store</title>
+    <link rel="stylesheet" href="store.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+
+        <section class="hero">
+            <header class="flex-align space-btw">
+                <input type="checkbox" id="ham">
+                <label for="ham">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </label>
+                
+                <div class="logo flex-align">
+                    <img src="img/icon.svg" width="60px" height="60px" alt="">
+                </div>
+                
+                <nav>
+                   <a href="">home</a>
+                   <a href="#abt">about</a>
+                   <a href="#store">store</a>
+                </nav>
+                
+                <div class="shop-info flex-align">
+                    <div class="contact"><i class="fa fa-phone" aria-hidden="true"></i>+ 123 456 789</div>
+                    
+                    <div class="cart ">
+                        <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </header>
+            
+            <div class="banner flex-col flex-center">
+                <p>Welcome To <span>Grandma's</span></p>
+                <a href="" class="exp">Explore</a>
+            </div>
+        </section>
+       
+       
+        <section class="about flex" id="abt">
+            <div class="about-us">
+                <h1>About <span>Us</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, maiores. Quia iure et quam, adipisci alias pariatur ullam. Dolorum, magnam ullam? Repellat vel laboriosam voluptas illum repudiandae est, voluptatibus saepe!
+                </p>
+                <a href="" class="exp1">Explore</a>
+            </div>
+            
+            <div class="image">
+            <div class="about-img">
+                <img src="img/dnuts1.jpg"  width="550px" alt="" class="img">
+            </div>
+            </div>  
+        </section>
+
+       
+        <section class="store" id="store">
+            <h1 class="text-center">Our <span>Store</span></h1>
+            
+            <div class="filter space-btw">
+                <a href="" class="exp1 btn">all</a>
+                <a href="" class="exp1 btn">cake</a>
+                <a href="" class="exp1 btn">cupcake</a>
+                <a href="" class="exp1 btn">sweet</a>
+                <a href="" class="exp1 btn">donut</a>
+            </div>
+            
+            <div class="search flex-center">
+                <i class="fa fa-search" aria-hidden="true"></i>  
+                <input type="text" placeholder="item..." id="search">
+                <button class="search-btn">search</button>
+            </div>
+            
+            
+            <div class="items flex wrap">
+                
+                <div class="item flex-col"  data-id="cake">
+                    <div class="item-img">
+                        <img src="img/cake1.jpg" alt="" class="img">
+                        <i class="fa fa-shopping-cart cart-btn" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="item-info space-btw">
+                        <p class="item-name">Cake item</p>
+                        
+                        <p class="item-price"><i class="fa fa-usd" aria-hidden="true"></i>2.00</p>
+                    </div>
+                </div>
+
+                <div class="item flex-col"  data-id="cake">
+                    <div class="item-img">
+                        <img src="img/cake2.jpg" alt="" class="img">
+                        <i class="fa fa-shopping-cart cart-btn" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="item-info space-btw">
+                        <p class="item-name">Cake item</p>
+                        
+                        <p class="item-price"><i class="fa fa-usd" aria-hidden="true"></i>2.00</p>
+                    </div>
+                </div>
+
+                <div class="item flex-col"  data-id="cake">
+                    <div class="item-img">
+                        <img src="img/cake3.jpg" alt="" class="img">
+                        <i class="fa fa-shopping-cart cart-btn" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="item-info space-btw">
+                        <p class="item-name">Cake item</p>
+                        
+                        <p class="item-price"><i class="fa fa-usd" aria-hidden="true"></i>2.00</p>
+                    </div>
+                </div>
+
+                <div class="item flex-col" data-id="cupcake">
+                    <div class="item-img">
+                        <img src="img/cupcake1.jpg" alt="" class="img">
+                        <i class="fa fa-shopping-cart cart-btn" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="item-info space-btw">
+                        <p class="item-name">Cupcake item</p>
+                        
+                        <p class="item-price"><i class="fa fa-usd" aria-hidden="true"></i>9.00</p>
+                    </div>
+                </div>
+
+                <div class="item flex-col" data-id="cupcake">
+                    <div class="item-img">
+                        <img src="img/cupcake2.JPG" alt="" class="img">
+                        <i class="fa fa-shopping-cart cart-btn" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="item-info space-btw">
+                        <p class="item-name">Cupcake item</p>
+                        
+                        <p class="item-price"><i class="fa fa-usd" aria-hidden="true"></i>5.00</p>
+                    </div>
+                </div>
+
+                <div class="item flex-col"  data-id="cupcake">
+                    <div class="item-img">
+                        <img src="img/cupcake3.jpg" alt="" class="img">
+                        <i class="fa fa-shopping-cart cart-btn" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="item-info space-btw">
+                        <p class="item-name">Cupcake item</p>
+                        
+                        <p class="item-price"><i class="fa fa-usd" aria-hidden="true"></i>12.00</p>
+                    </div>
+                </div>
+
+                <div class="item flex-col"  data-id="donut">
+                    <div class="item-img">
+                        <img src="img/dnuts1.jpg" alt="" class="img">
+                        <i class="fa fa-shopping-cart cart-btn" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="item-info space-btw">
+                        <p class="item-name">Donut item</p>
+                        
+                        <p class="item-price"><i class="fa fa-usd" aria-hidden="true"></i>10.00</p>
+                    </div>
+                </div>
+
+                <div class="item flex-col" data-id="donut">
+                    <div class="item-img">
+                        <img src="img/dnuts2.jpg" alt="" class="img">
+                        <i class="fa fa-shopping-cart cart-btn" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="item-info space-btw">
+                        <p class="item-name">Donut item</p>
+                        
+                        <p class="item-price"><i class="fa fa-usd" aria-hidden="true"></i>20.00</p>
+                    </div>
+                </div>
+
+                <div class="item flex-col" data-id="donut">
+                    <div class="item-img">
+                        <img src="img/dnuts3.jpg" alt="" class="img">
+                        <i class="fa fa-shopping-cart cart-btn" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="item-info space-btw">
+                        <p class="item-name">Donut item</p>
+                        
+                        <p class="item-price"><i class="fa fa-usd" aria-hidden="true"></i>15.00</p>
+                    </div>
+                </div>
+
+                <div class="item flex-col" data-id="sweet">
+                    <div class="item-img">
+                        <img src="img/sweet1.jpg" alt="" class="img">
+                        <i class="fa fa-shopping-cart cart-btn" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="item-info space-btw">
+                        <p class="item-name">Sweet item</p>
+                        
+                        <p class="item-price"><i class="fa fa-usd" aria-hidden="true"></i>7.00</p>
+                    </div>
+                </div>
+
+                <div class="item flex-col" data-id="sweet">
+                    <div class="item-img">
+                        <img src="img/sweet2.jpg" alt="" class="img">
+                        <i class="fa fa-shopping-cart cart-btn" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="item-info space-btw">
+                        <p class="item-name">Sweet item</p>
+                        
+                        <p class="item-price"><i class="fa fa-usd" aria-hidden="true"></i>8.00</p>
+                    </div>
+                </div>
+
+                <div class="item flex-col" data-id="sweet">
+                    <div class="item-img">
+                        <img src="img/sweet3.jpg" alt="" class="img">
+                        <i class="fa fa-shopping-cart cart-btn" aria-hidden="true"></i>
+                    </div>
+                    
+                    <div class="item-info space-btw">
+                        <p class="item-name">Sweet item</p>
+                        
+                        <p class="item-price"><i class="fa fa-usd" aria-hidden="true"></i>2.00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+<script src="store.js"></script>
+</body>
+</html>
